@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <!-- Link to external script -->
+    <script language="javascript" type="module" src="script.js" type="text/javascript" defer></script>
+     <!-- Link to Css -->
+   <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+</head>
+<body>
+<div class="tip">
+    <div class="tipcontainer">
+        <div class="hdr">
+            <h1>Tip Calculator</h1>
+            <h5>Enter the Bill amount and Tip percentage to calculate the total.</h5>
+        </div>
+        <form>
+            <div class="form-grp">
+                <label for="amount">Bill amount:</label>
+                <input type="number" id="amount" name="number" step="0.01" min="0" placeholder="0.00" required>
+            </div>
+            <div class="form-grp">
+                <label for="tip">Tip percentage:</label>
+                <input type="number" id="tip" name="tip" step="1" min="1" max="100" placeholder="15" required>
+            </div>
+            <button id="calculate">CALCULATE</button>
+        </form>
+        <div class="total">
+            <p>Tip amount: <span id="tipAmount">$0.00</span></p>
+            <p>Total bill: <span id="totalBill">$0.00</span></p>
+        </div>     
+    </div>
+</div>
+    
+</body>
+</html>

@@ -1,0 +1,80 @@
+body {
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* font-family: 'Trebuchet MS', sans-serif; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Stops horizontal scrolling */
+    width: 100vw; /* Ensures the width doesn't exceed the viewport */
+    display: grid;
+  place-items: center; /* centers both ways */
+  height: 90vh;
+  margin: 0;
+  background-color: aliceblue;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.tip {
+    background-color: gainsboro;
+    width: 90%;
+    max-width: 650px;
+    border-radius: 8px;
+    /* box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15); */
+    /* box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08); */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.tipcontainer {
+    padding: 15px 0 25px 15px;
+}
+.hdr {
+    margin-bottom: 5px;
+}
+.hdr h1 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+.form-grp {
+    margin-bottom: 5px;
+}
+
+label {
+    display: block;
+    font-size: 1.1rem;
+    margin-bottom: 6px;
+}
+input{
+    width: 98%;
+    box-sizing: border-box;
+    height: 50px;        
+    padding: 0 12px;   
+    font-size: 1.1rem;  
+    /* border-radius: 8px; */
+}
+
+button{
+    width: 98%;
+    background-color: darkgreen;
+    border: none;
+    box-sizing: border-box;
+    height: 50px;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    margin-top: 15px;
+    color: aliceblue;
+}
+
+.total {
+    font-size: 1.1rem;
+    margin-top: 15px;
+}
+
+#tipAmount, #totalBill {
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
